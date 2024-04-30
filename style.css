@@ -39,7 +39,7 @@ ul li .l{
     align-items: start;
     column-gap: 10px;
     top: 10px;
-    right:  30rem;
+    right:  20rem;
     font-size: 20px;
 }
 
@@ -166,7 +166,7 @@ form>button{
         display: flex;
     }
     .login{
-        right: 10px;
+        right: 20px;
     }
 }
 
