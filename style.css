@@ -189,7 +189,14 @@ form>button{
         display: block;
         text-align: center;
         position: relative;
-        top: 20px;
+        top:3rem;
         left: auto;
+    }
+    .tool_bar>ul,form>input,form>button{
+        font-size: 18px;
+    }
+    .middle_side{
+        background-image: none;
+        background-color: #28343d;
     }
 }
