@@ -40,6 +40,7 @@ ul li .l{
     column-gap: 10px;
     top: 10px;
     right:  30rem;
+    font-size: 20px;
 }
 
 .login a{
@@ -93,9 +94,11 @@ ul li>a{
 
 .tool_bar>ul{
     float: left;
-    padding: 0px;
+    margin-right: 70px;
     color: white;
     font-weight: bold;
+    font-size: 25px;
+    
 }
 
 .tool_bar>.search_container{
@@ -106,7 +109,7 @@ ul li>a{
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    flex: 1;
     row-gap: 10px;
 }
 
@@ -116,6 +119,7 @@ ul li>a{
 }
 
 .cart{
+    font-size: 20px;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -134,19 +138,58 @@ ul li>a{
 
 form>input{
     padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
+  margin-top: 18px;
+  font-size: 25px;
   border: none;
 }
 
 form>button{
     float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
+  padding: 6px 14px;
+  margin-top: 18px;
   margin-right: 16px;
   background: #ddd;
-  font-size: 17px;
+  font-size: 25px;
   border: none;
   cursor: pointer;
 }
 
+@media (max-width: 1000px){
+    .tool_bar{
+        display: flex;
+        flex-direction: column;
+    }
+    form>input{
+        flex: 1;
+    }
+    form{
+        display: flex;
+    }
+    .login{
+        right: 10px;
+    }
+}
+
+@media (max-width: 670px){
+    .tool_bar>ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle_side{
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 510px){
+    .logo-tool>ul{
+        opacity: 0;
+    }   
+    .logo-tool{
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        left: auto;
+    }
+}
