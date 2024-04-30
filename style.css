@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    height: 90vh;
+}
+
+.up_side{
+    background-color: #344654;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.logo-tool{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li .l{
+    color: white;
+    text-decoration: none;
+}
+
+.login{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: start;
+    column-gap: 10px;
+    top: 10px;
+    right:  30rem;
+}
+
+.login a{
+    color: #b8b6b4;
+    text-decoration: none;
+}
+
+.login button{
+    background-color: #5c7e10;
+    border-style: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+a>img{
+    height: 5rem;
+}
+
+ul li a{
+    font-size: 20px;
+    color: white;
+}
+ul li>a{
+    color: #1a9fff;
+}
+
+.middle_side{
+    background-image: url('./image/537734bd76fd2e59cefdc60a2ac894b12e104a02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tool_bar{
+    background-color: #316282;
+    padding-left: 20px
+}
+
+.tool_bar>ul{
+    float: left;
+    padding: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.tool_bar>.search_container{
+    float: right;
+}
+
+.property{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    row-gap: 10px;
+}
+
+.property>.cart_container{
+    display: flex;
+    justify-content: end;
+}
+
+.cart{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5c7e10;
+    color: white;
+    border-style: none;
+}
+
+.cart>img{
+    height: 20px;
+}
+
+
+form>input{
+    padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+form>button{
+    float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+

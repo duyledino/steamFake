@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Steam</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="./image/Steam_icon_logo.svg.png">
+</head>
+<body>
+    <div class="up_side">
+        <div class="bar">
+            <div class="logo-tool">
+                <a href="https://store.steampowered.com/">
+                    <img src="./image/Steam_icon_logo.svg.png" alt="steam">
+                </a>
+                <ul>
+                    <li><a href="https://store.steampowered.com/" target="_blank">STORE</a></li>
+                    <li ><a href="https://steamcommunity.com/"class="l" target="_blank">COMMUNITY</a></li>
+                    <li ><a href="https://steamcommunity.com/"class="l" target="_blank">ABOUT</a></li>
+                    <li ><a href="https://help.steampowered.com/en/"class="l" target="_blank">SUPPORT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="login">
+            <button type="submit"><i class="fa-solid fa-download"></i>  Install Steam</button>
+            <a href="">login</a>
+            <a href="">language</a>
+        </div>
+    </div>
+
+    <div class="middle_side">
+        <div class="property">
+            <div class="cart_container">
+                <button class="cart">
+                    <img src="./image/grocery-store.png" alt="cart">
+                    Cart
+                </button>
+            </div>
+            <div class="tool_bar">
+                    <ul>
+                        <li>Your Store</li>
+                        <li>New & Noteworthy</li>
+                        <li>Categories</li>
+                        <li>Points Shop</li>
+                        <li>News</li>
+                        <li>Labs</li>
+                    </ul>
+                    <div class="search_container">
+                        <form action="https://store.steampowered.com/search">
+                            <input type="text" placeholder="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '662cf1e3bb1f7f890fbfc0a3' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+</html>
